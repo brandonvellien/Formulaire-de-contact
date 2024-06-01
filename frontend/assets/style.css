@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7359dc;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+
+  /* border: solid 1px black; */
+}
+#contactForm {
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  height: 500px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#contactForm input {
+  margin: 0 auto;
+  width: 420px;
+  height: 40px;
+  align-items: center;
+}
+
+#contactForm textarea {
+  margin: 0 auto;
+  width: 420px;
+  height: 200px;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* .submit {
+  padding-top;10px
+} */
